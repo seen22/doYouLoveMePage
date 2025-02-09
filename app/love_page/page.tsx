@@ -49,7 +49,7 @@ export default function Love_page() {
   
        
         <h1 style={{ fontFamily: 'Comic Sans MS, cursive', color: '#ff6f61', marginTop: '40px' }}>
-          Love U more habibi ❤️🐼
+          Love U more habibi 😚🐼
         </h1>
       </div>
     );
