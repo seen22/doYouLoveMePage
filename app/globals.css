@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*--foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+*/}
+
+@media (prefers-color-scheme: dark) {
+  :root { }
+}
+
+body {
+  background-image:
+  linear-gradient(to right, RGB(255, 164, 96), RGB(252, 255, 255),RGB(252, 255, 255),RGB(252, 255, 255),RGB(255, 164, 96));
+  
+    }
