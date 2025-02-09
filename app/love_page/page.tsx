@@ -1,9 +1,8 @@
-
-"use client"
+'use client'
 import { useEffect } from 'react';
 import confetti from 'canvas-confetti';
 
-export default function love_page() {
+export default function Love_page() {
 
   useEffect(() => {
     // Konfiguriere den Confetti-Effekt
