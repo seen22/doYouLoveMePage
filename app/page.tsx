@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function Home() {
-  const [position, setPosition] = useState({ x: 500, y: 0 });
+  const [position, setPosition] = useState({ x: 10, y: 0 });
   const router = useRouter(); 
 
   const handleNoHover = () => {
@@ -47,7 +47,7 @@ export default function Home() {
         </button>
         <button
           style={{
-            position: 'absolute',
+            position: 'relative',
             left: `${position.x}px`,
             top: `${position.y}px`,
             padding: '10px 20px',
