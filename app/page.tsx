@@ -33,7 +33,7 @@ export default function Home() {
             cursor: 'pointer', // Zeiger-Cursor
             transition: 'transform 0.2s, background-color 0.2s',
           }}
-          onClick={() => router.push('/Love_page')}
+          onClick={() => router.push('/love_page')}
           onMouseEnter={(e)=> {
             e.currentTarget.style.transform='scale (1.1)';
             e.currentTarget.style.background='#F4A460';
